@@ -52,7 +52,7 @@ main section#card {
   width: 80%;
 }
 
-@indlude desktop {
+@media (min-width: 840px) {
   main section#card {
     grid-area: card;
     height: -webkit-fit-content;
